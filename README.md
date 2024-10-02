@@ -3,16 +3,16 @@
 ### Table of contents
 -  [Project Overview](#project-overview)
 - [Data Source](#data-source)
-- [Tools Used](#tool-used)
-- [Data Preparation and Data Cleaning](#data-preparation and data-cleaning)
+- [Tools Used](#tools-used)
+- [Data Preparation and Data Cleaning](#data-preparation-and-data-cleaning)
 - [Data Analysis](#data-analysis)
-- [Visualization in Power BI](#visualization- in powerbi)
+- [Visualization in Power BI](#visualization-in-power-bi)
 - [Findings](#findings)
 - [Limitations](#limitations)
 - [Conclusion](#conclusion)
 
 ### Project Overview
-key movie-related attributes for Netflix titles. With an increasing number of users globally, Netflix has become one of the most popular streaming platforms. The primary aim of this project is to analyze and explore a dataset containing Understanding the characteristics of successful movies can provide valuable insights for both viewers and producers. This project seeks to uncover trends, patterns, and correlations in Netflix movies based on attributes such as ratings, genres, directors, and revenue.
+The primary aim of this project is to analyze and explore a dataset containing Understanding the characteristics of successful movies can provide valuable insights for both viewers and producers. This project seeks to uncover trends, patterns, and correlations in Netflix movies based on attributes such as ratings, genres, directors, and revenue.
 
 ### Data Source
 The primary dataset utilized for this analysis is sourced from IMDb (Internet Movie Database), TMDb (The Movie Database), or OMDb (Open Movie Database) API. These sources are known for providing comprehensive movie-related data.
@@ -22,12 +22,12 @@ The primary dataset utilized for this analysis is sourced from IMDb (Internet Mo
 - MySQL Workbench: To store, analyze and query the data.
 - Power BI Desktop: To visualize the outcomes.
 
-  ### Data Preparation and Data
-  ### Cleaning Process in Excel and
-  ### MYSQL Workbench
+### Data Preparation and Data
+### Cleaning Process in Excel and
+### MYSQL Workbench
 
-  ### MS-Excel 
-- Data import and cleaning:
+### MS-Excel 
+- Data importing and cleaning:
 - Loads and reviews the dataset.
 - Import Csv or Excel files
 - Apply some basic cleaning tasks such as; 
@@ -37,26 +37,26 @@ The primary dataset utilized for this analysis is sourced from IMDb (Internet Mo
 
 ### MYSQL
 - Database Creation
- - Establish a database named "Movie "
+- Establish a database named "Movie "
 - Import Data: Import the movie dataset from the Excel.csv" file into the database.
 - Address Missing Values: Identify and handle missing values, particularly in Budget columns like (money, null)
 - Update Data Types: Modify data types as needed, such as changing year to (small integer)
 
-  ### Queations Answered in Data
-  ### Analysis Process in MYSQL
-  ### Workbench
+### Questions Answered in Data
+### Analysis Process in MYSQL
+### Workbench
 1. Find movies by country
 2. Movies with a Budget Greater than $100million
 3. Movies with Run time less than 90
 4. Total number of movies by Studio
 5. Average Box office Revenue by Studio
-6.  Count Blockbuster Releases over Time
+6. Count Blockbuster Releases over Time
 7. Get Top Movies by Rating 
-8.  Calculate Revenue- to - Budget Ratio
+8. Calculate Revenue- to - Budget Ratio
 9. Average Gross and Movie count by Studio
 10. Counts of Movies Released Each Year.
 
-    ### Visualization in PowerBI
+### Visualization in PowerBI
 -  Power Bi excels at creating interactive and dynamic dashboards.
 - After completing data cleaning and analysis in Excel or MySQL, the results were exported to CSV files.
 - These CSV files served as the basis for creating a visually appealing dashboard in Power BI.
@@ -66,7 +66,7 @@ The primary dataset utilized for this analysis is sourced from IMDb (Internet Mo
 - Build interactive visualizations and dashboards to present the insights.
 - Generate reports and share with stakeholders, ensuring the ability to drill down into specific data points for deeper insights.
 
-  ### Findings from the Analysis
+### Findings from the Analysis
 
 1. The country that produces the highest number of films could be identified (e.g., the USA may dominate the dataset).
 There may be emerging film industries in certain countries based on a growing number of releases.
